@@ -908,3 +908,13 @@ a:focus {
 }
 
 // end footer section
+
+.veg-nonveg-icon img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.veg-nonveg-icon img:hover {
+    transform: scale(1.1);
+}
